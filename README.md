@@ -15,14 +15,13 @@ A simple Node.js script that:
 
 2. Set up .env
 
-`
-GITHUB_TOKEN=ghp_xxxxxx  # Personal access token with repo scope
-REPO_OWNER= # Your GitHub username
-REPO_NAME= # Repository name
-BRANCH=main
-FILE_PATH=evm_wallet_nodejs.js
-LOCAL_FILE=./evm_wallet_nodejs.js
-COMMIT_MESSAGE=Add evm wallet script`
+`GITHUB_TOKEN=ghp_xxxxxx  # Personal access token with repo scope`
+`REPO_OWNER= # Your GitHub username`
+`REPO_NAME= # Repository name`
+`BRANCH=main`
+`FILE_PATH=evm_wallet_nodejs.js`
+`LOCAL_FILE=./evm_wallet_nodejs.js`
+`COMMIT_MESSAGE=Add evm wallet script`
 
 4. Run the script
 `node evm_wallet_nodejs.js`
