@@ -16,9 +16,9 @@ A simple Node.js script that:
 2. Set up .env
 
 `
-GITHUB_TOKEN=ghp_xxxxxx         # Personal access token with repo scope
-REPO_OWNER=phulimphad           # Your GitHub username
-REPO_NAME=evm_wallet_nodejs     # Repository name
+GITHUB_TOKEN=ghp_xxxxxx  # Personal access token with repo scope
+REPO_OWNER= # Your GitHub username
+REPO_NAME= # Repository name
 BRANCH=main
 FILE_PATH=evm_wallet_nodejs.js
 LOCAL_FILE=./evm_wallet_nodejs.js
