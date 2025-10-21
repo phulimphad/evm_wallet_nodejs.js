@@ -14,16 +14,18 @@ A simple Node.js script that:
    npm install @octokit/rest dotenv ethers
 
 2. Set up .env
+
+`
 GITHUB_TOKEN=ghp_xxxxxx         # Personal access token with repo scope
 REPO_OWNER=phulimphad           # Your GitHub username
 REPO_NAME=evm_wallet_nodejs     # Repository name
 BRANCH=main
 FILE_PATH=evm_wallet_nodejs.js
 LOCAL_FILE=./evm_wallet_nodejs.js
-COMMIT_MESSAGE=Add evm wallet script
+COMMIT_MESSAGE=Add evm wallet script`
 
-3. Run the script
-node evm_wallet_nodejs.js
+4. Run the script
+`node evm_wallet_nodejs.js`
 
 ---
 
